@@ -10,15 +10,15 @@ from email.mime.multipart import MIMEMultipart
 # Create a Chrome WebDriver instance
 driver = webdriver.Chrome()
 
-product_url = 'https://www.amazon.ca/Daonsuty-90%C2%B0Oscillating-Portable-Thermostat-Electric/dp/B0B5SSX885/ref=cm_cr_arp_d_pb_opt?ie=UTF8'
+product_url = 'your-amazon-link'
 
 # Define the target price you want to track
-target_price = 70.00
+target_price = 0 # Set it to your your-target-price
 
 # Gmail email and password (use an app password if you have two-factor authentication enabled)
-email_sender = 'labreservationapp@gmail.com'
-email_password = 'eolfywcnphfunnqb'
-email_receiver = 'labreservationapp@gmail.com'
+email_sender = 'your-email-address'
+email_password = 'your-passkey'
+email_receiver = 'your-email-address'
 
 # Function to extract the current price from the Amazon product page
 def get_current_price():
